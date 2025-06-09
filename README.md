@@ -24,8 +24,7 @@ An AI-powered tool that automatically analyzes SEC 10-K filings to extract key f
 ├── 📊 results_formatter.py        # Results aggregation & formatting
 ├── ⚙️  config.py                 # Configuration constants
 ├── 📋 requirements.txt           # Python dependencies
-├── 🔧 env_example.txt           # Environment variables template
-└── 📖 specs/prd.md              # Product Requirements Document
+└──🔧 env_example.txt           # Environment variables template
 ```
 
 ## 🚀 Quick Start
