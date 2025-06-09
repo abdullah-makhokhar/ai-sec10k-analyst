@@ -193,7 +193,6 @@ analysis_results/
 sec_filings/
 cached_data/
 ai_docs/
-specs/
 
 # Log files
 *.log
