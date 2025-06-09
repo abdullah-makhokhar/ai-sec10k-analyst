@@ -1,0 +1,10 @@
+streamlit==1.35.0
+langchain>=0.3.0
+langchain-google-genai>=2.1.0
+requests==2.32.3
+pandas>=2.0.0
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+plotly==5.17.0
+lxml
+html5lib 
