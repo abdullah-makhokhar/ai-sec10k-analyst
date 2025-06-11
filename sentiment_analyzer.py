@@ -169,9 +169,9 @@ Provide year-over-year sentiment comparison:
             
             logger.info("Starting MD&A sentiment analysis")
             
-            # Truncate if too long (keep first 12000 chars to stay within token limits)
-            if len(mda_section) > 12000:
-                mda_section = mda_section[:12000] + "..."
+            # Truncate if too long (keep first 40000 chars to stay within token limits)
+            if len(mda_section) > 40000:
+                mda_section = mda_section[:40000] + "..."
                 logger.warning("Truncated MD&A section to fit token limits")
             
             # Create the chain with output parser
@@ -212,10 +212,10 @@ Provide year-over-year sentiment comparison:
             logger.info("Starting year-over-year sentiment comparison")
             
             # Truncate if too long
-            if len(current_mda) > 8000:
-                current_mda = current_mda[:8000] + "..."
-            if len(previous_mda) > 8000:
-                previous_mda = previous_mda[:8000] + "..."
+            if len(current_mda) > 20000:
+                current_mda = current_mda[:20000] + "..."
+            if len(previous_mda) > 20000:
+                previous_mda = previous_mda[:20000] + "..."
             
             # Create the chain with output parser
             parser = JsonOutputParser(pydantic_object=SentimentComparison)

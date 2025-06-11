@@ -23,7 +23,7 @@ SEC_RATE_LIMIT_DELAY = 0.1  # 10 requests per second max
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 GEMINI_MODEL_PRIMARY = "gemini-2.0-flash"
 GEMINI_MODEL_FALLBACK = "gemini-1.5-flash"
-GEMINI_MAX_TOKENS = 4000
+GEMINI_MAX_TOKENS = 10000
 GEMINI_TEMPERATURE = 0.1
 
 # Application Configuration

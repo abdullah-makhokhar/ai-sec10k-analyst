@@ -266,8 +266,8 @@ Return as JSON with this structure:
             logger.info("Starting risk factors analysis")
             
             # Truncate if too long
-            if len(risk_section) > 12000:
-                risk_section = risk_section[:12000] + "..."
+            if len(risk_section) > 20000:
+                risk_section = risk_section[:20000] + "..."
                 logger.warning("Truncated risk section to fit token limits")
             
             # Create the chain with output parser
